@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @Author: lijunjie
  * @Date: 2022/12/4
  */
-//@RestController
-//@RequestMapping("/rule")
+@RestController
+@RequestMapping("/rule")
 public class RulesController {
 
     @Autowired

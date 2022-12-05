@@ -7,10 +7,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
+ * release
  * @Author: lijunjie
  * @Date: 2022/12/4
  */
-//@Service
+@Service
 public class RulesService {
     @Autowired
     private KieBase kieBase;
