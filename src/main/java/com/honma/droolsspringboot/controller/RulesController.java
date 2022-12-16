@@ -8,15 +8,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
+ * dev mofified
  * @Author: lijunjie
  * @Date: 2022/12/4
  */
-//@RestController
-//@RequestMapping("/rule")
+@RestController
+@RequestMapping("/rule")
 public class RulesController {
 
     @Autowired
     private RulesService ruleService;
+
+
     @GetMapping("/saveOrder")
     public Order saveOrder(Order order){
         System.out.println("hello,world");
